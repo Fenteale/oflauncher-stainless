@@ -28,6 +28,7 @@ int main(int argc, char *argv[]) {
 
 	OFSGui g;
 	OFSPathDiscover opd;
+	HgInterface hg;
 
 	g.bindActivity(BUT_CLICKED_INSTALL, testFunc);
 
